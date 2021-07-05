@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/Style.css">
+
+        <meta name="author" content="Avil Kevin">
+        <meta name="keyword" content="Estuio de Fotogrfía">
+        <meta name="descripcion" content="Trabajo final Programacion I">
+
+    </head>
+    <body>
+        <header>
+
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="Registro.html">Register</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="container-contacto">
+            <div class="box-contacto tm-mf">
+                <h2 class="text-cont">Mi info</h2>
+                <div class="left">
+                    <div class="me-inf lt">
+                        <div class="me">
+                        </div>
+                    </div>
+                    <div class="me-inf border-left">
+                        <p><strong>Nombre y aprellido:</strong>Avila Kevin</p>
+                        <p><strong>DNI:</strong>40.821.012</p>
+                        <p><strong>Fecha de nacimiento:</strong>10/08/1998</p>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="box-contacto">
+                <h2 class="text-cont">Ubicacion ramdom</h2>
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1737.4794598784836!2d-66.86814587579518!3d-29.429997048163997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1625502599499!5m2!1ses-419!2sar" width="350px" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div> 
+            </div>
+
+        </section>
+        <section id="cuestionario">
+            <form action="Index.html">
+                <h1 class="text-cuestion">Danos tu opinion</h1>
+                <div class="Cuestion">
+                    <div class="Box-cuest">
+                        <label for="Util">Este sitio te resulto util?:</label>
+                        <input type="radio" name="Util" id="Util" value="Q-yes"><span>Yes</span>
+                        <input type="radio" name="Util" id="Util" value="Q-no"><span>No</span>
+                    </div>
+                    <div class="Box-cuest">
+                        <label for="Problema">Tubiste algun problema con el sitio?:</label>
+                        <input type="radio" name="Problema" id="Problema" value="P-yes"><span>Yes</span>
+                        <input type="radio" name="Problema" id="Problema" value="P-no"><span>No</span>
+                    </div>
+                    <div class="Box-cuest">
+                        <label for="recomendar">Recomendarias nuestro sitio?:</label>
+                        <input type="radio" name="recomendar" id="recomendar" value="R-yes"><span>Yes</span>
+                        <input type="radio" name="recomendar" id="recomendar" value="R-no"><span>No</span>
+                    </div>
+                    <div class="Box-cuest">
+                        <label for="sexo">Sexo:</label>
+                        <input type="radio" name="sexo" id="sexo" value="hombre"><span>Hombre</span>
+                        <input type="radio" name="sexo" id="sexo" value="mujer"><span>Mujer</span>
+                    </div>
+                </div>
+                <div class="Cuestion">
+                    <div class="Box-cuest">
+                        <label for="edad">Eres mayor de edad?:</label>
+                        <input type="radio" name="edad" id="edad" value="+18"><span>Yes</span>
+                        <input type="radio" name="edad" id="edad" value="-17"><span>No</span>
+                    </div>
+                    <div class="Box-cuest">
+                        <label for="comentario">Dejanos algun comentario que tengas:</label>
+                        <textarea name="comentario" id="comentario" cols="45" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="boton-cuestion">
+                    <input type="submit" name="Emviar" id="Emviar-cuestionario" name="Emviar-cuestionario" value="Emviar">
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
