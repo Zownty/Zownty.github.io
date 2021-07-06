@@ -386,7 +386,8 @@ a{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: lightslategrey;
+    background-image: url("../image/avatar/artworks-000334513803-sbiope-t500x500.jpg");
+    background-size:cover;
     
 }
     .lt{
