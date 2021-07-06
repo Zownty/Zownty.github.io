@@ -1,11 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    background: #505050;
+}
+p{
+    color: white !important;
 }
 header{
     display: flex;
     width: 100%;
-    background: #303030;
+    background: #505050;
     flex-direction: column;
     align-items: center;
 }
@@ -13,13 +18,15 @@ header{
 #menu{
     width: 800px;
     height: 58px;
-    background: #303030;
+    background: #505050;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
 }
-
+.logo img{
+    height: 40px;
+}
 nav ul{
     display: flex;
     list-style: none;
@@ -89,6 +96,7 @@ a{
     color:white;
     text-align: center;
     font-size: 2em;
+    background: transparent;
 }
     .color-black{
         color: black !important;
@@ -103,7 +111,12 @@ a{
     border-radius: 10px;
 }
 
-
+.color-var{
+    color: #4b4a47;
+}
+.color-var2{
+    color: #7e6a41;
+}
 
 
 /*-------------------------------------------*/
@@ -114,14 +127,19 @@ a{
 
 #Continer-text{
     width: 800px;
-    height: 3400px;
     background: #706e6e;
     margin: 0 auto;
 }
+.container-center{
+    width: 100%;
+    float: left;
+    background: #706e6e;
+    padding-bottom: 40px;
+}
 .caja-menu{
     width: 150px;
-    height: 250px;
-    background: #b2aeae;
+    
+    background: #505050;
     float: left;
     margin-left: 10px;
     margin-top: 20px;
@@ -144,7 +162,7 @@ a{
 .caja-info{
     width: 600px;
     
-    background: #c4c1c1;
+    background: #505050;
     float: right;
     margin-right: 15px;
     margin-top: 20px;
@@ -185,7 +203,7 @@ a{
     }
     .Foto-Centro{
         width: 200px;
-        height: 100px;
+        height: 200px;
         margin:0 auto;
         margin-top: 20px;
         display: block;
@@ -193,11 +211,12 @@ a{
     }
 
 
-.color-var{
-    color: #3b3b3b;
-}
-.color-var2{
-    color: #706e6e;
+
+
+.image-center{
+    margin: 0 auto !important;
+    display: block;
+    margin: 10px;
 }
 
 /*-------------------------------------------*/
@@ -209,7 +228,7 @@ a{
 .form-container{
     width: 550px;
     height: 400px;
-    background: #616161;
+    background: #757474;
     border-radius: 10px;
     margin-top: 50px !important;
     margin: 0 auto;
@@ -222,12 +241,13 @@ a{
     background-size: cover;
     float: left;
 }
+
 .img-form h2{
     color: white;
+    background: transparent;
 }
 
 .box-form{
-    
     float:right ;
     width: 280px;
     height: 370px;
@@ -248,6 +268,7 @@ a{
     margin-left: 10px;
     width: 200px;
     border-radius: 3px;
+    background: #cdcdcd;
 }
 .form-grup label{
     color: white;
@@ -270,7 +291,7 @@ a{
 .form-register{
     width: 300px;
     height: 400px;
-    background-color: rgb(95, 94, 94);
+    background-color: rgb(119, 118, 118);
     margin: 0 auto;
     margin-top: 50px;
     border: 3px solid rgba(61, 61, 61, 0.5) ;
@@ -278,14 +299,14 @@ a{
 .box-register{
     width: 300px;
     height: 400px;
-    background-color:rgb(56, 56, 55);
+    background-color:rgb(75, 74, 74);
     margin: 0 auto;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
 }
 .box-register h1{
-    color: rgb(94, 94, 94);
+    color: rgb(255, 255, 255);
     font-size: xx-large;
     margin-bottom: 10px;
 }
@@ -294,9 +315,11 @@ a{
     float: left;
     width: 100px;
     margin-left: 10px;
+    background: #cdcdcd;
 }
 .box-l input{
     width: 235px;
+    background: #cdcdcd;
 }
 .box-register form{
     padding: 10px;
@@ -322,14 +345,14 @@ a{
 #container-contacto{
     width: 780px;
     height: 400px;
-    background: #7e6a41;
+    background: #919090;
     margin: 0 auto;
     padding: 10px;
 }
 .box-contacto{
     width: 350px;
     height: 350px;
-    background: #e4d2b0;
+    background: #b8b5b5;
     float: left;
     margin-left: 30px;
     margin-top: 10px;
@@ -341,6 +364,7 @@ a{
 .text-cont{
     color: white;
     font-size: x-large;
+    background: transparent;
 }
 .left{
     margin-left:15px;
@@ -351,7 +375,7 @@ a{
     margin-left: 10px;
     float: left;
     display: block;
-    
+    background: #b8b5b5;
 }
     .border-left{
         border-left: 1px solid rgb(112, 112, 112);
@@ -373,9 +397,11 @@ a{
         font-size:small;
         border-bottom:1px solid rgb(70, 70, 70) ;
         text-align: center;
+        background: transparent;
     }
     .me-inf strong{
         display: block;
+        background: transparent;
         
     }
 
@@ -401,20 +427,65 @@ a{
 .Box-cuest{
     margin: 10px;
     text-align: left;
+    background: transparent;
 }
 .Box-cuest label{
     display: block;
     padding: 10px;
     font-size: large;
+    background: transparent;
 }
+    .Box-cuest span{
+        background: transparent;
+    }
 .boton-cuestion {
     text-align: center;
+    background: transparent;
 }
 .boton-cuestion input{
     padding: 10px;
     width: 150px;
+    background: #cdcdcd
 }
+
 textarea{
     resize: none;
+    background: #ccc;
+}
 
+
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------Footer------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+
+footer{
+    width: 100%;
+    background: #505050;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+footer h4{
+    font-size: x-small;
+    color: white;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red-in{
+    display: block;
+    padding: 10px;
+    background: #3b3b3b;
+    margin: 10px;
+}
+footer i{
+    color:white;
+}
+
+footer .red-in:hover{
+    background: rgb(121, 120, 121);
 }
